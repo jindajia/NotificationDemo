@@ -22,7 +22,11 @@
     UIWindowScene *windowscene = (UIWindowScene *)scene;
     self.window = [[UIWindow alloc] initWithWindowScene:windowscene];
     self.window.frame = windowscene.screen.bounds;
-    self.window.rootViewController = [[ViewController alloc] init];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    
+    
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
 }
 
