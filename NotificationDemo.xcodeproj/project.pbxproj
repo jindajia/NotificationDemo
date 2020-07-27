@@ -14,6 +14,7 @@
 		D676EC9424CEA76A00B0AECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676EC9324CEA76A00B0AECA /* Assets.xcassets */; };
 		D676EC9724CEA76A00B0AECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D676EC9524CEA76A00B0AECA /* LaunchScreen.storyboard */; };
 		D676EC9A24CEA76A00B0AECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D676EC9924CEA76A00B0AECA /* main.m */; };
+		D676ECA224CEA79200B0AECA /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D676ECA124CEA79200B0AECA /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D676EC9624CEA76A00B0AECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D676EC9824CEA76A00B0AECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D676EC9924CEA76A00B0AECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D676ECA024CEA79200B0AECA /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		D676ECA124CEA79200B0AECA /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				D676EC8B24CEA76800B0AECA /* SceneDelegate.m */,
 				D676EC8D24CEA76800B0AECA /* ViewController.h */,
 				D676EC8E24CEA76900B0AECA /* ViewController.m */,
+				D676ECA024CEA79200B0AECA /* BViewController.h */,
+				D676ECA124CEA79200B0AECA /* BViewController.m */,
 				D676EC9024CEA76900B0AECA /* Main.storyboard */,
 				D676EC9324CEA76A00B0AECA /* Assets.xcassets */,
 				D676EC9524CEA76A00B0AECA /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 				D676EC8F24CEA76900B0AECA /* ViewController.m in Sources */,
 				D676EC8924CEA76800B0AECA /* AppDelegate.m in Sources */,
 				D676EC9A24CEA76A00B0AECA /* main.m in Sources */,
+				D676ECA224CEA79200B0AECA /* BViewController.m in Sources */,
 				D676EC8C24CEA76800B0AECA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
